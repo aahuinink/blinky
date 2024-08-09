@@ -58,7 +58,7 @@ pub mod rgb{
 
         
 
-        trait Neopixel {
+        pub trait Neopixel {
             fn write(&mut self, val: RgbVal) -> Result<(), EspError>;
         }
 
